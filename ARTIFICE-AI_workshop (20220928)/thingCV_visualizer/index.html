@@ -157,8 +157,9 @@ var force = d3.layout.force()
     .linkStrength(1)
     .size([width, height]);
 
+//adjust the range of the slider
 var x = d3.scale.linear()
-    .domain([0, 0.5])
+    .domain([0, 1.0])
     .range([270, 10])
     .clamp(true);
 
