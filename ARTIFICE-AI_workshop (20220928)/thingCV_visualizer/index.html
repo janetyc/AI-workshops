@@ -216,6 +216,7 @@ var handle = slider.append("circle")
 
 var root = {};
 
+//readDataFromDF
 var readDataFromDF = async function() {
   data_url = "https://data.id.tue.nl/datasets/downloadPublic/json/NFFPcDVjdzdSbjV0VFlISXI4aUZ4Y2REOFl4cHZIRkdNTk5rZlRucHoyST0=";
   var jdata = await fetch(data_url);
@@ -297,13 +298,13 @@ function calculateGraph(data){
 }
 
 
+//read data from DF
+// var DFdata = readDataFromDF();
+// DFdata.then(function(graph) {
+
 //read data from json file
-
-var DFdata = readDataFromDF();
-DFdata.then(function(graph) {
-
-//d3.json("object_graph.json", function(error, graph) {
-//  if (error) throw error;
+d3.json("object_graph.json", function(error, graph) {
+ if (error) throw error;
 
 function getByValue(map, searchValue) {
   for (let [key, value] of map.entries()) {

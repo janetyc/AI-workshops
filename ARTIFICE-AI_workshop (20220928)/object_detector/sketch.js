@@ -14,7 +14,8 @@ let detections = [];
 
 function setup() {
   cnv = createCanvas(windowWidth, windowHeight);
-  //cnv.touchEnded(logData);
+  
+  //Step 1: use phone's back camera
   var constraints = {
     audio: false,
     video: {
@@ -23,21 +24,29 @@ function setup() {
       }
     }
   };
-  video = createCapture(constraints);
+  video = createCapture(constraints); //save the video results
   
   // The line below + the videoLoadedCallback were added 
   // after the video was shot to fix compability issues.
-  // ref to: https://editor.p5js.org/makerslab/sketches/xRM_R4idW
   video.elt.addEventListener('loadeddata', videoLoadedCallback);
   
-  video.size(windowWidth, windowHeight);
+  // set video size
+  video.size(500, 500);
+  // video.size(windowWidth, windowHeight);
   video.hide();
+  
+  
+  //Step 3: log data when people touch the screen
+  cnv.touchEnded(logData);
   
 }
 
 function draw() {
+  //Step 2: draw video and detected objects
+  //draw video on canvas
   image(video, 0, 0, video.width, video.height);
 
+  //draw bounding boxes for detected objects on canvas
   for (let i = 0; i < detections.length; i++) {
     let object = detections[i];
     if(object.confidence > 0.6) {
@@ -48,6 +57,7 @@ function draw() {
       noStroke();
       fill(255);
       textSize(24);
+      //display label with its confidence value
       text(object.label+"("+object.confidence.toFixed(3)+")", object.x + 10, object.y + 24);
     }  
   }
@@ -58,7 +68,7 @@ function videoLoadedCallback() {
   print("Video Loaded");
   
   //call model here
-  // Models available are 'cocossd', 'yolo'
+  //Models available are 'cocossd', 'yolo'
   detector = ml5.objectDetector('cocossd', modelReady);
 }
 
@@ -74,6 +84,7 @@ function gotDetections(error, results) {
   detector.detect(video, gotDetections);
 }
 
+//only get the objects whose confidence value is larger than 0.6
 function getDetectionObjects(final_detections) {
   let objectList = ""
   firstObj = true
@@ -92,8 +103,8 @@ function getDetectionObjects(final_detections) {
 }
 
 function logData() {
-  //final_detections = detections
-  objectList = getDetectionObjects(final_detections);
+  final_detections = detections
+  objectList = getDetectionObjects(final_detections); //call getDetectionObjects function
 
   let data= {
     time: +(new Date),
@@ -105,8 +116,9 @@ function logData() {
     data: JSON.stringify(data)
   }
 
-  fetch('[DATASET_URL]', {
-      method: 'POST',
+  //store data to Data Foundry's IoT dataset
+  fetch('[IOT_DATASET_URL]', {
+      method: 'POST', //use POST request to send data to DF
       mode: 'cors',
       cache: 'no-cache',
       headers: {

@@ -1,0 +1,371 @@
+# %% [markdown]
+# ARTIFICE AI Workshop (II)
+# %% [markdown]
+## Preparation stage
+ ### Step 0: Import required packages
+
+# %% [python]
+# import libraries (needed only once in the notebook)
+import pandas as pd
+import pyodide
+# %% [markdown]
+### Step 1: Read data from the DF API
+# %% [python]
+# download from this url --> IoT dataset
+data_url = "https://data.id.tue.nl/datasets/download/1846"
+
+# download and parse CSV into Pandas DataFrame
+df = pd.read_csv(pyodide.open_url(data_url))
+
+# work with the DataFrame and print results
+print(df)
+print(df.columns)
+# %% [markdown]
+## Example 1: Unsupervised Learning (K-means Clustering)
+
+Goal: Clustering and Visualizing Your Color Data
+# %% [markdown]
+### Step 1: Cluster your data based on your defined feature
+# %% [python]
+#print the selected data
+selected_df = pd.DataFrame(df, columns=['id','activity','choice','color'])
+print(selected_df)
+
+#only select data that contains color, that is, remove start
+color_classification_df = selected_df[selected_df['choice'] != 'start'] 
+print(color_classification_df)
+print(color_classification_df.shape)
+# %% [python]
+# preprocessing: turn hex value to rgb value
+all_color_points = list()
+all_data_points = list()
+for index, row in color_classification_df.iterrows():
+  hex_input = row['color']
+  RGB = tuple(int(hex_input[i:i+2], 16) for i in (0, 2, 4)) #turn hex value to rgb value
+  all_color_points.append(RGB)
+  all_data_points.append([hex_input,row['choice'], RGB])
+
+#convert list to DataFrame
+color_df = pd.DataFrame(all_color_points, columns = ['R', 'G', 'B'])
+data_df = pd.DataFrame(all_data_points, columns = ['color', 'choice', 'RGB'])
+print(color_df)
+print(data_df)
+# %% [python]
+#k-mean clustering
+from sklearn.cluster import KMeans
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+# %% [markdown]
+### Step 2: Use PCA to reduce the feature space from 3d to 2d.
+
+**Principal Component Analysis (PCA)** is a dimensionality reduction method that is often used to reduce the dimensionality of large data sets, by transforming a large set of variables into a smaller one that still contains most of the information in the large set.
+# %% [python]
+
+# in order to plot data point into 2d space, you need to reduce feature dimension from 3 to 2
+# use PCA to do dimension reduction 
+X_std = StandardScaler().fit_transform(color_df)
+pca = PCA(n_components=2)
+principalComponents = pca.fit_transform(X_std)
+principalDf = pd.DataFrame(data = principalComponents, columns = ['PCA1', 'PCA2'])
+
+print(principalDf)
+
+# Plotting the variances for each PC
+PC = range(1, pca.n_components_+1)
+
+# Putting components in a dataframe for later usage
+PCA_components = pd.DataFrame(principalComponents)
+# %% [markdown]
+### Step 3: Visualize your cluster based on PCA components
+# %% [python]
+import matplotlib.pyplot as plt
+# %% [markdown]
+Visualize data using two PCA components as x and y axis
+# %% [python]
+plt.clf()
+plt.scatter(PCA_components[0], PCA_components[1], alpha=.3, color='blue')
+plt.xlabel('PCA 1')
+plt.ylabel('PCA 2')
+plt.show()
+# %% [markdown]
+Check how well a dataset was clustered by K-means
+
+* **Inertia** measures **how well a dataset was clustered by K-Means**. It is calculated by **measuring the distance between each data point and its centroid**, squaring this distance, and summing these squares across one cluster.
+
+\
+
+# %% [python]
+inertias = []
+
+# Creating 10 K-Mean models while varying the number of clusters (k)
+for k in range(1,10):
+    model = KMeans(n_clusters=k)
+    
+    # Fit model to samples
+    model.fit(PCA_components.iloc[:,:3])
+    
+    # Append the inertia to the list of inertias
+    inertias.append(model.inertia_)
+
+
+plt.clf()
+plt.plot(range(1,10), inertias, '-p', color='blue')
+plt.xlabel('number of clusters, k')
+plt.ylabel('inertia')
+plt.show()
+# %% [markdown]
+Visualize clusters with different colors
+# %% [python]
+#k-means clustering based on 2-dimension PCA features
+model = KMeans(n_clusters=6)
+model.fit(PCA_components.iloc[:,:2])
+
+labels = model.predict(PCA_components.iloc[:,:2])
+plt.clf()
+plt.scatter(PCA_components[0], PCA_components[1], c=labels)
+plt.show()
+# %% [markdown]
+Visualize the color data with the original color
+# %% [python]
+color_code=["#%s" % i for i in data_df.iloc[:,0]]
+plt.clf()
+plt.scatter(PCA_components[0], PCA_components[1], c=color_code)
+plt.show()
+# %% [markdown]
+## Example 2: Supervised Learning (KNN Classification)
+
+Reading: <https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761>
+# %% [markdown]
+check color data
+# %% [python]
+print(color_df)
+print(data_df)
+# %% [markdown]
+Train a K-nn Classifier
+# %% [python]
+from sklearn.neighbors import KNeighborsClassifier
+
+knn_model = KNeighborsClassifier(n_neighbors=3, algorithm='auto')
+
+# # Train the model using the training sets
+knn_model.fit(features,choice)
+# %% [markdown]
+### Additional learning: use 70% training and 30% testing to train the model
+# %% [markdown]
+data preprocessing
+# %% [python]
+# Import LabelEncoder
+from sklearn import preprocessing
+
+#creating labelEncoder
+le = preprocessing.LabelEncoder()
+
+features = color_df[['R','G','B']]
+choice = data_df[['choice']]['choice']
+
+# converting string labels into numbers.
+target_label=le.fit_transform(choice.values)
+# %% [markdown]
+Split the whole dataset into two datasets: 70% for training and 30% for testing. Then, only train the model based on the training dataset (70% of the whole dataset)
+# %% [python]
+# Import train_test_split function
+from sklearn.model_selection import train_test_split
+
+# Split dataset into training set and test set
+X_train, X_test, y_train, y_test = train_test_split(features, target_label, test_size=0.3) # 70% training and 30% test
+# %% [python]
+#Import knearest neighbors Classifier model
+from sklearn.neighbors import KNeighborsClassifier
+
+#Create KNN Classifier
+knn = KNeighborsClassifier(n_neighbors=3)
+
+#Train the model using the training sets
+knn.fit(X_train, y_train)
+
+#Predict the response for test dataset
+y_pred = knn.predict(X_test)
+# %% [python]
+Check model accuracy using testing dataset
+# %% [python]
+#Import scikit-learn metrics module for accuracy calculation
+from sklearn import metrics
+# Model Accuracy, how often is the classifier correct?
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+# %% [markdown]
+### Additional learning: Draw color data in three dimension space
+# %% [python]
+import numpy as np
+r=[]
+g=[]
+b=[]
+c=[]
+for d in data_df.iloc[:,2]:
+  r.append(d[0])
+  g.append(d[1])
+  b.append(d[2])
+  c.append(list(d))
+
+colors= np.array(c)
+# %% [python]
+predicted= knn_model.predict(color_df)
+
+# draw prediction based on original training data
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+
+ax.scatter(r, g, b, c=predicted, marker="o")
+
+ax.set_xlabel('R')
+ax.set_ylabel('G')
+ax.set_zlabel('B')
+
+plt.show()
+
+# draw original color
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+
+ax.scatter(r, g, b, c=colors/255.0, marker="o")
+
+ax.set_xlabel('R')
+ax.set_ylabel('G')
+ax.set_zlabel('B')
+
+plt.show()
+# %% [markdown]
+## Testing the trained model using new input data
+# %% [markdown]
+Generate new random input N to test the trained model
+# %% [python]
+n=500
+new_color_df = pd.DataFrame(np.random.randint(0,255,size=(n, 3)), columns=list('RGB'))
+
+r=new_color_df['R']
+g=new_color_df['G']
+b=new_color_df['B']
+
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+
+ax.scatter(r, g, b, c=new_color_df.values/255.0, marker="o")
+
+ax.set_xlabel('R')
+ax.set_ylabel('G')
+ax.set_zlabel('B')
+
+plt.show()
+# %% [python]
+# use 3-dim features to do classification
+knn_model = KNeighborsClassifier(n_neighbors=3, algorithm='auto')
+knn_model.fit(features,choice)
+new_predicted = knn_model.predict(new_color_df)
+
+# draw 3d figure
+fig = plt.figure()
+ax = fig.add_subplot(projection='3d')
+ax.scatter(r, g, b, c=new_predicted, marker="o")
+
+ax.set_xlabel('R')
+ax.set_ylabel('G')
+ax.set_zlabel('B')
+
+plt.show()
+# %% [python]
+print(new_color_df)
+print(new_predicted)
+new_results = list(new_predicted) #for later js usage
+# %% [markdown]
+## Use p5.js to visualize the results
+# %% [markdown]
+p5.js is a JavaScript library for creative coding ([https://p5js.org](https://p5js.org  ))
+# %% [javascript]
+await import("https://cdn.jsdelivr.net/npm/p5@0.9.0/lib/p5.min.js")
+console.log("p5.js Ready!")
+# %% [markdown]
+pass python parameter (e.g., new_color_df ) to javascript parameter (e.g., color_data)
+# %% [javascript]
+//convert python data to js data 
+color_data = pyodide.globals.get("new_color_df").values.toJs();
+predicted_results = pyodide.globals.get("new_results").toJs();
+
+
+//store the predicted results into three different arrays
+r=[];
+g=[];
+b=[];
+for (i = 0; i<predicted_results.length;i++){
+  if(predicted_results[i] == "red") r.push(color_data[i])
+  else if(predicted_results[i] == "green") g.push(color_data[i])
+  else if(predicted_results[i] == "blue") b.push(color_data[i]) 
+}
+
+console.log(r);
+console.log(g);
+console.log(b);
+# %% [markdown]
+### Use p5 "instance mode" to embed the p5 sketch into Starboard Notebook
+
+check two links for more information:
+
+* <https://p5js.org/reference/#/p5/p5>
+* <https://github.com/processing/p5.js/wiki/p5.js-overview#instantiation--namespace>
+
+\
+
+# %% [javascript]
+//try draw r, g, b
+let output_results = b;
+
+const sketch = function(p) {
+  // const width = height = document.body.scrollWidth - 100;
+  const width = height = 500;
+  const diameter = p.min(width, height) * 0.5;
+  const dim = p.min(width, height);
+  const maxRadius = dim * 0.4;
+
+  //setup function: only execute once
+  p.setup = () => { 
+    p.createCanvas(width, height);
+    p.background(0);
+    p.noFill();
+  }
+
+  //draw function: execute the code in a loop
+  p.draw = () => {
+    p.drawPoly(output_results);
+  }
+
+  //draw polygon based on output results
+  p.drawPoly = (input) => {
+  	let rings = input.length;
+    for (let i = 0; i < rings; i++) {
+      // Get a normalized 't' value that isn't 0
+      const t = (i + 1) / rings;
+      // Scale it by max radius
+      const radius = t * maxRadius;
+        
+      // Draw line
+      p.stroke(input[i][0], input[i][1], input[i][2]);
+      p.strokeWeight(2);
+      p.polygon(width / 2, height / 2, radius, 6, p.PI / 2);
+    }
+  
+  }
+
+  //define polygon drawing
+  p.polygon = (x, y, radius, sides = 3, angle = 0) => {
+    p.beginShape();
+    for (let i = 0; i < sides; i++) {
+      const a = angle + p.TWO_PI * (i / sides);
+      let sx = x + p.cos(a) * radius;
+      let sy = y + p.sin(a) * radius;
+      p.vertex(sx, sy);
+    }
+    p.endShape(p.CLOSE);
+  }
+};
+
+const instance = new p5(sketch);
+instance.canvas.style.margin = "1em"
+instance.canvas
