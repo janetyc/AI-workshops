@@ -1,0 +1,140 @@
+# %% [markdown]
+## Session 0: Setup for using ChatGPT
+
+### Step 1: define request function for further POST call
+
+In starboard, you can only use Pyodide to get data from the url. However, it is currently impossible to use the requests since sockets are not available in Pyodide. 
+
+\
+To make POST calls, you need to use Web APIs in pyodide. For the easy-to-use purpose, the self-define request is implemented as follow:
+# %% [python]
+# Code is borrowed from https://docs.pyscript.net/latest/guides/http-requests.html
+
+from pyodide.http import pyfetch, FetchResponse
+from typing import Optional, Any
+
+async def request(url: str, method: str = "GET", body: Optional[str] = None,
+                  headers: Optional[dict[str, str]] = None, **fetch_kwargs: Any) -> FetchResponse:
+    """
+    Async request function. Pass in Method and make sure to await!
+    Parameters:
+        url: str = URL to make request to
+        method: str = {"GET", "POST", "PUT", "DELETE"} from `JavaScript` global fetch())
+        body: str = body as json string. Example, body=json.dumps(my_dict)
+        headers: dict[str, str] = header as dict, will be converted to string...
+            Example, headers=json.dumps({"Content-Type": "application/json"})
+        fetch_kwargs: Any = any other keyword arguments to pass to `pyfetch` (will be passed to `fetch`)
+    Return:
+        response: pyodide.http.FetchResponse = use with .status or await.json(), etc.
+    """
+    kwargs = {"method": method, "mode": "cors"}  # CORS: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+    if body and method not in ["GET", "HEAD"]:
+        kwargs["body"] = body
+    if headers:
+        kwargs["headers"] = headers
+    kwargs.update(fetch_kwargs)
+
+    response = await pyfetch(url, **kwargs)
+    return response
+# %% [markdown]
+### Step 2: Get your personal information from DF project for enabling OpenAI api
+
+Copy the following information from your project and paste it to the following code.
+
+(1) api_key
+
+(2) project_id
+# %% [python]
+api_key = '<api_key>'  #use your api_key
+project_id = "<project_id>" #use your project_id
+headers = {'Content-Type': 'application/json'}
+
+print("api_key: %s" % (api_key))
+print("project_id: %s" % (project_id))
+# %% [markdown]
+## Session 1: Explore prompts for generating patterns
+
+### Step 1: Write your pattern description in a prompt
+# %% [python]
+messages = []
+# setup a system role
+# system_role = f"""
+# You are a new media artist who uses code and technology to create patterns. You are good at programming language, especially for p5.js sketch.
+# """
+# messages.append({'role':'system', 'content': system_role})
+
+
+# Write a description to elaborate your pattern
+# Inspired by https://www.amygoodchild.com/blog/ai-generations-chatgpt-4-sol-lewitt-wall-drawings
+# "Wall Drawing 46", Sol LeWitt, May 1970  (https://massmoca.org/event/walldrawing46/)
+# - Vertical lines, not straight, not touching, covering the wall evenly.
+
+pattern_description = f"""
+Vertical lines, not straight, not touching, covering the wall evenly.
+"""
+
+prompt = f"""
+You are a new media artist who uses code and technology to create patterns. \
+You are good at programming languages, especially for p5.js sketch.
+
+Write p5.js sketch that that draws the following: 
+```{pattern_description}```
+"""
+
+# add user prompt to history
+messages.append({'role':'user', 'content': prompt})
+
+# set temperature value (optional)
+# Temperature: the degree of “randomness” of the model's output (0-2)
+# The suggested value is 0-1.  Higher values like 0.8 will make the output more random, while lower values like 0.2 will make it more focused and deterministic.
+temperature = 0.8
+
+# put necessary into data structure
+data = {
+	'api_token': api_key,
+	'task': 'chat',
+	'messages': messages,
+    'temperature': temperature
+}
+
+# print out all data elements
+for item in data:
+  print("%s: %s" % (item, data[item]))
+# %% [markdown]
+### Step 2: Call DF’s OpenAI api to generating patterns through p5.js code
+# %% [python]
+import json
+
+body = json.dumps(data)
+new_post = await request(f"https://data.id.tue.nl/api/vendor/openai/"+project_id, body=body, method="POST", headers=headers)
+results = await new_post.json()
+print(f"POST request=> status:{new_post.status}, json:{results}")
+print("--------------------------------------------------")
+
+#print out the important information: cost and output
+print("cost:%d" % results["cost"])
+print(results["content"])
+# %% [markdown]
+### Step 3: (optional) If the answer is an incomplete one, please use this code. Otherwise, don’t run it.
+
+If the output seems to be an incomplete one, please use a “continue” as a follow-up prompt to ask it to continue to generate the following texts.
+
+\
+The cost of this action will be higher than the previous one because you use a conversation as an input instead of only one prompt.
+# %% [python]
+follow_up_prompt = "continue"
+
+messages.append({'role':'assistant', 'content': results["content"]}) # add output into chat history
+messages.append({'role':'user', 'content': follow_up_prompt}) # add follow_up prompt into chat history
+
+# update the message into data
+data["messages"] = messages 
+#print(data["messages"])
+
+# call api again
+body = json.dumps(data)
+new_post = await request(f"https://data.id.tue.nl/api/vendor/openai/"+project_id, body=body, method="POST", headers=headers)
+results = await new_post.json()
+
+print("cost:%d" % results["cost"])
+print(results["content"])

@@ -1,0 +1,955 @@
+[PiyoLog]Mar 2022
+
+----------
+Tue, Mar 1, 2022
+yoshi (0y3m1d)
+
+03:20 AM   Wake-up (3h 40m)   
+03:25 AM   Nursing R 28m   
+04:10 AM   Sleep   
+07:05 AM   Wake-up (2h 55m)   
+07:10 AM   Pee   
+07:20 AM   Nursing L 28m   
+08:45 AM   Sleep   
+09:30 AM   Wake-up (0h 45m)   
+10:30 AM   Nursing L 6m ← R 25m   
+11:15 AM   Pee   
+11:15 AM   Poop   
+11:50 AM   Sleep   
+02:20 PM   Wake-up (2h 30m)   
+02:25 PM   Nursing L 30m   
+04:20 PM   Sleep   
+04:50 PM   Wake-up (0h 30m)   
+05:30 PM   Pee   
+05:35 PM   Nursing R 30m   
+06:30 PM   Poop   
+06:30 PM   Pee   
+08:35 PM   Nursing L 30m   
+09:00 PM   Sleep   
+10:55 PM   Wake-up (1h 55m)   
+11:00 PM   Pee   
+11:15 PM   Sleep   
+
+Total nursing time  L 94m / R 83m
+Formula Total: 0 times 0ml
+Total sleep         12h40m
+Peed                5times
+Pooped              2times
+
+----------
+Wed, Mar 2, 2022
+yoshi (0y3m2d)
+
+02:05 AM   Wake-up (2h 50m)   
+02:05 AM   Nursing R 28m   
+02:40 AM   Sleep   
+05:45 AM   Wake-up (3h 5m)   
+05:50 AM   Nursing L 20m   
+06:20 AM   Sleep   
+08:25 AM   Wake-up (2h 5m)   
+08:30 AM   Pee   
+09:20 AM   Expressed breast milk 130ml   
+09:30 AM   Sleep   
+10:30 AM   Wake-up (1h 0m)   
+11:00 AM   Pee   
+11:00 AM   Poop   
+01:05 PM   Expressed breast milk 120ml   
+04:50 PM   Expressed breast milk 120ml   
+07:50 PM   Nursing R 43m   
+08:45 PM   Sleep   
+
+Total nursing time  L 20m / R 71m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 370ml
+Total sleep         11h30m
+Peed                2times
+Pooped              1times
+
+----------
+Thu, Mar 3, 2022
+yoshi (0y3m3d)
+
+03:30 AM   Wake-up (6h 45m)   
+03:35 AM   Nursing L 32m   
+04:10 AM   Sleep   
+07:15 AM   Wake-up (3h 5m)   
+07:20 AM   Nursing R 49m   
+07:25 AM   Pee   
+08:00 AM   Sleep   
+11:00 AM   Wake-up (3h 0m)   
+11:05 AM   Nursing L 22m   
+11:50 AM   Pee   
+11:50 AM   Poop   
+02:05 PM   Nursing R 33m   
+02:50 PM   Sleep   
+04:50 PM   Wake-up (2h 0m)   
+05:05 PM   Pee   
+05:25 PM   Nursing L 41m   
+07:50 PM   Sleep   
+08:15 PM   Nursing R 39m   
+10:25 PM   Wake-up (2h 35m)   
+10:30 PM   Pee   
+10:35 PM   Sleep   
+
+Total nursing time  L 95m / R 121m
+Formula Total: 0 times 0ml
+Total sleep         15h35m
+Peed                4times
+Pooped              1times
+
+----------
+Fri, Mar 4, 2022
+yoshi (0y3m4d)
+
+02:00 AM   Wake-up (3h 25m)   
+02:05 AM   Nursing L 44m   
+04:15 AM   Sleep   
+05:30 AM   Wake-up (1h 15m)   
+05:35 AM   Nursing R 50m   
+05:40 AM   Sleep   
+08:40 AM   Wake-up (3h 0m)   
+08:45 AM   Pee   
+08:55 AM   Body Temp. 37.0°C   
+08:55 AM   Nursing L 23m   
+11:20 AM   Pee   
+11:20 AM   Poop   
+11:50 AM   Expressed breast milk 140ml   
+12:30 PM   Sleep   
+01:10 PM   Wake-up (0h 40m)   
+01:45 PM   Pee   
+01:45 PM   Poop   
+02:20 PM   Sleep   
+03:10 PM   Wake-up (0h 50m)   
+03:30 PM   Expressed breast milk 130ml   
+05:35 PM   290ml   
+05:40 PM   Pee   
+05:40 PM   Poop   
+06:15 PM   Baths   
+06:45 PM   Nursing L 5m ← R 34m   
+08:50 PM   Pee   
+08:50 PM   Poop   
+09:20 PM   Nursing L 30m   
+10:10 PM   Sleep   
+
+Total nursing time  L 102m / R 84m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 270ml
+Total sleep         9h35m
+Peed                5times
+Pooped              4times
+
+----------
+Sat, Mar 5, 2022
+yoshi (0y3m5d)
+
+03:45 AM   Wake-up (5h 35m)   
+03:50 AM   Nursing R 32m   
+04:30 AM   Sleep   
+07:55 AM   Wake-up (3h 25m)   
+08:30 AM   Pee   
+08:35 AM   Nursing L 34m   
+10:00 AM   Sleep   
+10:55 AM   Wake-up (0h 55m)   
+11:55 AM   Expressed breast milk 130ml   
+12:30 PM   Sleep   
+02:00 PM   Wake-up (1h 30m)   
+02:10 PM   Pee   
+02:10 PM   Poop   
+03:25 PM   280ml   
+03:40 PM   Expressed breast milk 130ml   
+05:00 PM   Sleep   
+07:00 PM   Wake-up (2h 0m)   
+07:10 PM   Nursing L 9m ← R 42m   
+08:15 PM   Sleep   
+10:15 PM   Wake-up (2h 0m)   
+10:20 PM   Pee   
+10:20 PM   Nursing L 28m   
+11:00 PM   Sleep   
+
+Total nursing time  L 70m / R 74m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 260ml
+Total sleep         14h35m
+Peed                3times
+Pooped              1times
+
+----------
+Sun, Mar 6, 2022
+yoshi (0y3m6d)
+
+04:55 AM   Wake-up (5h 55m)   
+05:00 AM   Nursing R 68m   
+08:00 AM   Pee   
+08:35 AM   Nursing L 28m   
+10:00 AM   Poop   
+10:00 AM   Pee   
+10:15 AM   Body Temp. 37.1°C   
+11:55 AM   Nursing R 46m   
+03:00 PM   Poop   
+03:00 PM   Pee   
+05:05 PM   Nursing L 53m   
+08:10 PM   Pee   
+08:15 PM   Nursing R 35m   
+09:15 PM   Pee   
+09:15 PM   Poop   
+
+Total nursing time  L 82m / R 149m
+Formula Total: 0 times 0ml
+Total sleep         4h55m
+Peed                5times
+Pooped              3times
+
+----------
+Mon, Mar 7, 2022
+yoshi (0y3m7d)
+
+01:00 AM   Pee   
+01:00 AM   Nursing L 100m   
+04:00 AM   Nursing R 82m   
+07:40 AM   Pee   
+07:50 AM   Nursing L 28m   
+10:00 AM   Weight 6.48kg   
+10:00 AM   Height 62.2cm   
+10:00 AM   Head Size 41.3cm   
+10:00 AM   Vaccines   
+11:25 AM   Expressed breast milk 130ml   
+12:45 PM   Sleep   
+03:25 PM   Wake-up (2h 40m)   
+03:30 PM   Expressed breast milk 170ml   
+06:50 PM   Expressed breast milk 130ml   
+07:15 PM   Body Temp. 38.1°C   
+07:15 PM   Pee   
+09:10 PM   Pee   
+09:10 PM   Poop   
+09:55 PM   Nursing R 50m   
+11:10 PM   Sleep   
+
+Total nursing time  L 128m / R 132m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 430ml
+Total sleep         3h30m
+Peed                4times
+Pooped              1times
+
+----------
+Tue, Mar 8, 2022
+yoshi (0y3m8d)
+
+12:20 AM   250ml   
+04:05 AM   Wake-up (4h 55m)   
+04:10 AM   Nursing L 67m   
+05:20 AM   Nursing R 37m   
+08:40 AM   Body Temp. 37.6°C   
+08:40 AM   Pee   
+09:35 AM   Nursing L 13m ← R 15m   
+10:50 AM   Sleep   
+11:10 AM   Wake-up (0h 20m)   
+12:45 PM   Pee   
+12:45 PM   Poop   
+12:50 PM   Body Temp. 37.9°C   
+01:10 PM   Expressed breast milk 130ml   
+02:20 PM   Sleep   
+05:10 PM   Wake-up (2h 50m)   
+05:25 PM   Pee   
+05:25 PM   Body Temp. 37.4°C   
+05:25 PM   Nursing L 12m ← R 20m   
+06:30 PM   Pee   
+06:30 PM   Poop   
+08:35 PM   Nursing L 24m → R 4m   
+09:30 PM   Sleep   
+
+Total nursing time  L 116m / R 76m
+Formula Total: 0 times 0ml
+Expressed breast milk         1times 130ml
+Total sleep         9h45m
+Peed                4times
+Pooped              2times
+
+----------
+Wed, Mar 9, 2022
+yoshi (0y3m9d)
+
+12:10 AM   150ml   
+02:10 AM   Wake-up (4h 40m)   
+02:15 AM   Nursing L 11m → R 25m   
+03:10 AM   Sleep   
+07:15 AM   Wake-up (4h 5m)   
+07:30 AM   Nursing L 14m → R 10m   
+09:30 AM   Sleep   
+10:05 AM   Wake-up (0h 35m)   
+10:35 AM   Expressed breast milk 130ml   
+11:20 AM   Sleep   
+11:55 AM   Wake-up (0h 35m)   
+01:30 PM   Expressed breast milk 130ml   
+01:45 PM   Sleep   
+02:10 PM   Wake-up (0h 25m)   
+04:15 PM   Expressed breast milk 130ml   
+06:30 PM   Pee   
+06:30 PM   Poop   
+07:05 PM   Nursing L 8m ← R 13m   
+08:30 PM   Sleep   
+11:25 PM   Wake-up (2h 55m)   
+11:30 PM   Nursing L 25m ← R 3m   
+11:55 PM   Sleep   
+
+Total nursing time  L 59m / R 51m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 390ml
+Total sleep         10h50m
+Peed                1times
+Pooped              1times
+
+----------
+Thu, Mar 10, 2022
+yoshi (0y3m10d)
+
+03:50 AM   Wake-up (3h 55m)   
+03:55 AM   Nursing R 50m   
+04:30 AM   Sleep   
+07:00 AM   Wake-up (2h 30m)   
+07:10 AM   Pee   
+08:00 AM   Nursing L 23m   
+08:30 AM   Pee   
+08:30 AM   Poop   
+10:20 AM   Expressed breast milk 130ml   
+10:55 AM   Sleep   
+11:30 AM   Wake-up (0h 35m)   
+01:20 PM   Expressed breast milk 130ml   
+01:25 PM   Sleep   
+02:00 PM   Wake-up (0h 35m)   
+03:50 PM   Sleep   
+04:25 PM   Wake-up (0h 35m)   
+04:35 PM   Expressed breast milk 130ml   
+06:30 PM   Baths   
+07:35 PM   Nursing L 6m ← R 25m   
+09:30 PM   Sleep   
+
+Total nursing time  L 29m / R 75m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 390ml
+Total sleep         10h35m
+Peed                2times
+Pooped              1times
+
+----------
+Fri, Mar 11, 2022
+yoshi (0y3m11d)
+
+12:10 AM   Wake-up (2h 40m)   
+12:25 AM   Pee   
+12:30 AM   Nursing L 23m ← R 4m   
+12:55 AM   Sleep   
+05:55 AM   Wake-up (5h 0m)   
+06:00 AM   Nursing R 28m   
+06:40 AM   Sleep   
+08:40 AM   Wake-up (2h 0m)   
+06:40 PM   Nursing L 8m ← R 17m   
+09:00 PM   Sleep   
+
+Total nursing time  L 30m / R 48m
+Formula Total: 0 times 0ml
+Total sleep         10h10m
+Peed                1times
+Pooped              0times
+
+----------
+Sat, Mar 12, 2022
+yoshi (0y3m12d)
+
+12:00 AM   Wake-up (3h 0m)   
+12:05 AM   Nursing L 46m   
+01:00 AM   Sleep   
+06:50 AM   Wake-up (5h 50m)   
+06:50 AM   Pee   
+06:55 AM   Nursing R 21m   
+08:55 AM   Sleep   
+09:20 AM   Wake-up (0h 25m)   
+09:35 AM   Nursing L 13m   
+10:00 AM   Pee   
+12:40 PM   Nursing R 30m   
+02:40 PM   Pee   
+02:40 PM   Poop   
+03:10 PM   Sleep   
+04:35 PM   Wake-up (1h 25m)   
+04:40 PM   Nursing L 29m   
+07:00 PM   Nursing R 15m   
+07:35 PM   Sleep   
+
+Total nursing time  L 88m / R 67m
+Formula Total: 0 times 0ml
+Total sleep         12h5m
+Peed                3times
+Pooped              1times
+
+----------
+Sun, Mar 13, 2022
+yoshi (0y3m13d)
+
+12:35 AM   Wake-up (5h 0m)   
+12:40 AM   Pee   
+12:50 AM   Nursing L 34m   
+01:15 AM   Sleep   
+07:25 AM   Wake-up (6h 10m)   
+07:30 AM   Pee   
+07:50 AM   Nursing L 8m ← R 16m   
+09:50 AM   Sleep   
+12:00 PM   Wake-up (2h 10m)   
+12:05 PM   Nursing L 18m → R 9m   
+12:35 PM   Pee   
+03:15 PM   Sleep   
+04:00 PM   Wake-up (0h 45m)   
+04:30 PM   Expressed breast milk 140ml   
+05:20 PM   Sleep   
+06:30 PM   Wake-up (1h 10m)   
+08:00 PM   Pee   
+08:15 PM   Expressed breast milk 140ml   
+08:40 PM   Sleep   
+08:40 PM   240ml   
+
+Total nursing time  L 60m / R 25m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 280ml
+Total sleep         14h10m
+Peed                4times
+Pooped              0times
+
+----------
+Mon, Mar 14, 2022
+yoshi (0y3m14d)
+
+01:00 AM   Wake-up (4h 20m)   
+01:05 AM   Pee   
+01:15 AM   Nursing R 100m   
+02:00 AM   Sleep   
+06:45 AM   Nursing L 15m → R 7m   
+06:50 AM   Wake-up (4h 50m)   
+09:45 AM   Expressed breast milk 130ml   
+12:20 PM   Expressed breast milk 130ml   
+04:00 PM   Expressed breast milk 130ml   
+07:10 PM   Nursing L 5m ← R 17m   
+07:30 PM   Pee   
+07:30 PM   Poop   
+08:00 PM   Pee   
+08:00 PM   Poop   
+08:30 PM   Sleep   
+
+Total nursing time  L 20m / R 125m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 390ml
+Total sleep         9h20m
+Peed                3times
+Pooped              2times
+
+----------
+Tue, Mar 15, 2022
+yoshi (0y3m15d)
+
+01:00 AM   Wake-up (4h 30m)   
+01:05 AM   Nursing L 68m   
+01:50 AM   Sleep   
+06:50 AM   Wake-up (5h 0m)   
+06:55 AM   Pee   
+07:05 AM   Nursing L 5m ← R 21m   
+07:30 AM   Poop   
+08:10 AM   Custom1   Vitamin
+08:50 AM   Pee   
+08:50 AM   Poop   
+09:10 AM   Sleep   
+10:45 AM   Nursing L 17m → R 8m   
+10:45 AM   Wake-up (1h 35m)   
+12:20 PM   Sleep   
+02:00 PM   Wake-up (1h 40m)   
+02:05 PM   Nursing L 7m ← R 17m   
+03:30 PM   Pee   
+03:30 PM   Poop   
+04:00 PM   Sleep   
+04:20 PM   Wake-up (0h 20m)   
+05:00 PM   Nursing L 15m → R 11m   
+06:15 PM   Pee   
+06:15 PM   Poop   
+07:00 PM   Sleep   
+07:40 PM   Wake-up (0h 40m)   
+07:55 PM   Nursing L 10m ← R 14m   
+08:30 PM   Sleep   
+
+Total nursing time  L 121m / R 72m
+Formula Total: 0 times 0ml
+Total sleep         13h45m
+Peed                4times
+Pooped              4times
+
+----------
+Wed, Mar 16, 2022
+yoshi (0y3m16d)
+
+01:00 AM   Wake-up (4h 30m)   
+01:05 AM   Nursing L 19m   
+02:10 AM   Sleep   
+05:35 AM   Wake-up (3h 25m)   
+05:40 AM   Nursing R 40m   
+07:15 AM   Pee   
+07:15 AM   Poop   
+07:40 AM   Pee   
+07:40 AM   Poop   
+10:35 AM   Poop   
+03:25 PM   Poop   
+04:45 PM   Formula 160ml   
+07:35 PM   Nursing R 12m   
+09:10 PM   Pee   
+09:10 PM   Poop   
+09:15 PM   Sleep   
+
+Total nursing time  L 19m / R 52m
+Formula Total: 1 times 160ml
+Total sleep         7h10m
+Peed                3times
+Pooped              5times
+
+----------
+Thu, Mar 17, 2022
+yoshi (0y3m17d)
+
+12:00 AM   Wake-up (2h 45m)   
+12:10 AM   Nursing L 77m   
+01:30 AM   Sleep   
+03:50 AM   Wake-up (2h 20m)   
+03:55 AM   Nursing R 19m   
+04:15 AM   Poop   
+04:15 AM   Pee   
+04:20 AM   Sleep   
+07:45 AM   Wake-up (3h 25m)   
+07:50 AM   Nursing L 16m   
+08:30 AM   Pee   
+08:30 AM   Poop   
+10:30 AM   Nursing R 25m   
+11:30 AM   Pee   
+11:30 AM   Poop   
+01:20 PM   Sleep   
+02:30 PM   Wake-up (1h 10m)   
+02:45 PM   Expressed breast milk 140ml   
+03:00 PM   Pee   
+03:00 PM   Poop   
+03:50 PM   Sleep   
+04:30 PM   Wake-up (0h 40m)   
+05:20 PM   Body Temp. 38.1°C   
+06:10 PM   Expressed breast milk 150ml   
+06:20 PM   Pee   
+06:20 PM   Poop   
+08:45 PM   300ml   
+09:20 PM   Expressed breast milk 130ml   
+09:30 PM   Sleep   
+
+Total nursing time  L 94m / R 44m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 420ml
+Total sleep         10h5m
+Peed                5times
+Pooped              5times
+
+----------
+Fri, Mar 18, 2022
+yoshi (0y3m18d)
+
+01:20 AM   Wake-up (3h 50m)   
+01:25 AM   Nursing R 8m   
+01:40 AM   Pee   
+02:00 AM   Vomit   
+02:05 AM   Sleep   
+04:40 AM   Wake-up (2h 35m)   
+04:45 AM   Nursing L 17m   
+05:35 AM   Sleep   
+07:40 AM   Wake-up (2h 5m)   
+07:45 AM   Pee   
+07:45 AM   Poop   
+08:00 AM   Nursing R 27m   
+11:45 AM   Expressed breast milk 140ml   
+11:55 AM   Sleep   
+01:35 PM   Wake-up (1h 40m)   
+01:45 PM   Pee   
+01:45 PM   Poop   
+01:50 PM   Body Temp. 37.7°C   
+03:00 PM   Expressed breast milk 140ml   
+03:05 PM   Nursing R 5m   
+03:25 PM   Body Temp. 38.1°C   
+03:25 PM   Pee   
+03:25 PM   Poop   
+05:00 PM   300ml   
+05:40 PM   Sleep   
+06:10 PM   Wake-up (0h 30m)   
+06:10 PM   Nursing L 11m ← R 15m   
+08:40 PM   Pee   
+08:40 PM   Poop   
+08:50 PM   Body Temp. 37.6°C   
+09:00 PM   Pee   
+10:50 PM   Nursing L 57m   
+
+Total nursing time  L 85m / R 55m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 280ml
+Total sleep         8h10m
+Peed                6times
+Pooped              4times
+
+----------
+Sat, Mar 19, 2022
+yoshi (0y3m19d)
+
+12:00 AM   Body Temp. 37.0°C   
+12:15 AM   Sleep   
+04:05 AM   Wake-up (3h 50m)   
+04:10 AM   Nursing R 14m   
+04:40 AM   Pee   
+04:40 AM   Poop   
+04:45 AM   Body Temp. 37.4°C   
+05:00 AM   Sleep   
+08:50 AM   Wake-up (3h 50m)   
+08:55 AM   Nursing L 18m   
+09:45 AM   Pee   
+09:45 AM   Poop   
+09:45 AM   Body Temp. 37.3°C   
+12:30 PM   Expressed breast milk 140ml   
+02:40 PM   Sleep   
+03:50 PM   Wake-up (1h 10m)   
+04:05 PM   Nursing R 22m   
+04:40 PM   Poop   
+04:40 PM   Pee   
+06:45 PM   Nursing L 15m / R 5m   
+08:15 PM   Poop   
+08:15 PM   Pee   
+08:50 PM   Sleep   
+
+Total nursing time  L 33m / R 41m
+Formula Total: 0 times 0ml
+Expressed breast milk         1times 140ml
+Total sleep         12h0m
+Peed                4times
+Pooped              4times
+
+----------
+Sun, Mar 20, 2022
+yoshi (0y3m20d)
+
+12:00 AM   Wake-up (3h 10m)   
+12:05 AM   Nursing R 21m   
+12:20 AM   Sleep   
+01:30 AM   Pee   
+05:20 AM   Wake-up (5h 0m)   
+05:25 AM   Nursing L 17m   
+05:50 AM   Pee   
+05:50 AM   Poop   
+06:10 AM   Sleep   
+09:40 AM   Wake-up (3h 30m)   
+09:45 AM   Nursing R 13m   
+10:40 AM   Pee   
+10:40 AM   Poop   
+11:50 AM   Sleep   
+12:25 PM   Wake-up (0h 35m)   
+01:00 PM   Nursing L 29m   
+02:40 PM   Sleep   
+03:30 PM   Wake-up (0h 50m)   
+03:45 PM   Poop   
+03:45 PM   Pee   
+04:30 PM   Sleep   
+05:00 PM   Wake-up (0h 30m)   
+05:25 PM   Pee   
+05:25 PM   Poop   
+05:50 PM   Expressed breast milk 140ml   
+07:30 PM   Sleep   
+08:50 PM   Wake-up (1h 20m)   
+09:00 PM   Nursing L 6m ← R 26m   
+09:35 PM   Sleep   
+
+Total nursing time  L 52m / R 60m
+Formula Total: 0 times 0ml
+Expressed breast milk         1times 140ml
+Total sleep         14h10m
+Peed                5times
+Pooped              4times
+
+----------
+Mon, Mar 21, 2022
+yoshi (0y3m21d)
+
+01:55 AM   Wake-up (4h 20m)   
+02:00 AM   Nursing L 19m → R 8m   
+02:55 AM   Sleep   
+07:25 AM   Wake-up (4h 30m)   
+07:30 AM   Nursing R 24m   
+08:00 AM   Pee   
+08:00 AM   Poop   
+04:30 PM   Expressed breast milk 140ml   
+07:20 PM   Nursing L 24m   
+07:45 PM   Sleep   
+
+Total nursing time  L 43m / R 32m
+Formula Total: 0 times 0ml
+Expressed breast milk         1times 140ml
+Total sleep         10h40m
+Peed                1times
+Pooped              1times
+
+----------
+Tue, Mar 22, 2022
+yoshi (0y3m22d)
+
+12:30 AM   Wake-up (4h 45m)   
+12:35 AM   Nursing R 30m   
+01:15 AM   Sleep   
+07:20 AM   Wake-up (6h 5m)   
+07:35 AM   Pee   
+07:40 AM   Nursing L 24m   
+08:20 AM   Pee   
+08:20 AM   Poop   
+04:30 PM   Formula 160ml   
+07:35 PM   Nursing R 27m   
+09:00 PM   Pee   
+09:00 PM   Poop   
+09:10 PM   Sleep   
+
+Total nursing time  L 24m / R 57m
+Formula Total: 1 times 160ml
+Total sleep         9h25m
+Peed                3times
+Pooped              2times
+
+----------
+Wed, Mar 23, 2022
+yoshi (0y3m23d)
+
+02:30 AM   Wake-up (5h 20m)   
+02:35 AM   Nursing L 19m   
+03:00 AM   Sleep   
+07:15 AM   Wake-up (4h 15m)   
+07:20 AM   Nursing R 22m   
+04:50 PM   Formula 160ml   
+06:45 PM   Pee   
+07:40 PM   Nursing R 24m   
+08:35 PM   Sleep   
+
+Total nursing time  L 19m / R 46m
+Formula Total: 1 times 160ml
+Total sleep         10h10m
+Peed                1times
+Pooped              0times
+
+----------
+Thu, Mar 24, 2022
+yoshi (0y3m24d)
+
+12:10 AM   Wake-up (3h 35m)   
+12:15 AM   Nursing L 23m   
+05:35 AM   Nursing R 24m   
+06:40 AM   Pee   
+08:10 AM   Pee   
+08:10 AM   Poop   
+03:30 PM   Formula 160ml   
+05:45 PM   Pee   
+05:45 PM   Poop   
+07:25 PM   Nursing L 9m ← R 12m   
+09:00 PM   Pee   
+09:00 PM   Poop   
+09:20 PM   Sleep   
+
+Total nursing time  L 32m / R 36m
+Formula Total: 1 times 160ml
+Total sleep         2h50m
+Peed                4times
+Pooped              3times
+
+----------
+Fri, Mar 25, 2022
+yoshi (0y3m25d)
+
+12:20 AM   Wake-up (3h 0m)   
+12:25 AM   Nursing L 24m   
+01:00 AM   Sleep   
+03:35 AM   Wake-up (2h 35m)   
+03:40 AM   Nursing R 26m   
+07:45 AM   Nursing L 22m   
+08:20 AM   Pee   
+08:20 AM   Poop   
+10:45 AM   Expressed breast milk 130ml   
+01:35 PM   Expressed breast milk 130ml   
+04:40 PM   Expressed breast milk 130ml   
+07:45 PM   Pee   
+07:45 PM   Poop   
+07:55 PM   Nursing L 10m → R 20m   
+09:00 PM   Sleep   
+
+Total nursing time  L 56m / R 46m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 390ml
+Total sleep         5h55m
+Peed                2times
+Pooped              2times
+
+----------
+Sat, Mar 26, 2022
+yoshi (0y3m26d)
+
+02:00 AM   Wake-up (5h 0m)   
+02:05 AM   Pee   
+02:05 AM   Nursing R 30m   
+02:50 AM   Sleep   
+07:20 AM   Wake-up (4h 30m)   
+07:20 AM   Nursing L 24m   
+08:30 AM   Pee   
+08:30 AM   Poop   
+10:50 AM   Nursing R 27m   
+12:00 PM   Pee   
+12:00 PM   Poop   
+12:55 PM   Pee   
+12:55 PM   Poop   
+02:40 PM   Expressed breast milk 130ml   
+03:05 PM   Sleep   
+05:50 PM   Wake-up (2h 45m)   
+06:15 PM   Expressed breast milk 140ml   
+06:55 PM   Pee   
+06:55 PM   Poop   
+06:55 PM   Body Temp. 37.3°C   
+08:10 PM   Sleep   
+08:30 PM   320ml   
+
+Total nursing time  L 24m / R 57m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 270ml
+Total sleep         13h5m
+Peed                5times
+Pooped              4times
+
+----------
+Sun, Mar 27, 2022
+yoshi (0y3m27d)
+
+01:10 AM   Wake-up (5h 0m)   
+01:10 AM   Pee   
+01:15 AM   Nursing R 25m   
+01:45 AM   Sleep   
+03:45 AM   Wake-up (1h 0m)   
+04:00 AM   Pee   
+04:00 AM   Poop   
+05:00 AM   Sleep   
+07:40 AM   Wake-up (2h 40m)   
+07:45 AM   Nursing L 24m   
+08:40 AM   Pee   
+08:40 AM   Poop   
+11:05 AM   Nursing R 23m   
+03:10 PM   Expressed breast milk 140ml   
+04:30 PM   Sleep   
+05:00 PM   Wake-up (0h 30m)   
+06:20 PM   Nursing L 28m → R 4m   
+07:10 PM   Pee   
+07:10 PM   Poop   
+08:00 PM   Sleep   
+
+Total nursing time  L 52m / R 52m
+Formula Total: 0 times 0ml
+Expressed breast milk         1times 140ml
+Total sleep         9h20m
+Peed                4times
+Pooped              3times
+
+----------
+Mon, Mar 28, 2022
+yoshi (0y3m28d)
+
+02:30 AM   Wake-up (6h 30m)   
+02:30 AM   Nursing R 22m   
+04:00 AM   Sleep   
+05:35 AM   Wake-up (1h 35m)   
+05:40 AM   Nursing L 25m   
+06:30 AM   Sleep   
+07:20 AM   Wake-up (0h 50m)   
+09:30 AM   Expressed breast milk 130ml   
+12:30 PM   Expressed breast milk 130ml   
+03:30 PM   Expressed breast milk 130ml   
+06:40 PM   Nursing R 23m   
+08:20 PM   Sleep   
+09:00 PM   Wake-up (0h 40m)   
+09:25 PM   Sleep   
+
+Total nursing time  L 25m / R 45m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 390ml
+Total sleep         8h10m
+Peed                0times
+Pooped              0times
+
+----------
+Tue, Mar 29, 2022
+yoshi (0y4m0d)
+
+12:40 AM   Wake-up (3h 15m)   
+12:45 AM   Nursing L 23m   
+01:30 AM   Sleep   
+04:50 AM   Wake-up (3h 20m)   
+04:55 AM   Nursing R 37m   
+08:50 AM   Expressed breast milk 130ml   
+12:30 PM   Expressed breast milk 140ml   
+03:15 PM   Formula 160ml   
+06:20 PM   Nursing L 17m   
+08:05 PM   Sleep   
+09:00 PM   Wake-up (0h 55m)   
+09:10 PM   Nursing R 16m   
+09:40 PM   Sleep   
+
+Total nursing time  L 40m / R 53m
+Formula Total: 1 times 160ml
+Expressed breast milk         2times 270ml
+Total sleep         7h15m
+Peed                0times
+Pooped              0times
+
+----------
+Wed, Mar 30, 2022
+yoshi (0y4m1d)
+
+05:30 AM   Wake-up (7h 50m)   
+05:35 AM   Nursing L 26m   
+06:00 AM   Sleep   
+06:50 AM   Wake-up (0h 50m)   
+07:00 AM   140ml   
+07:00 AM   Pee   
+07:00 AM   Poop   
+09:30 AM   Expressed breast milk 140ml   
+12:30 PM   Expressed breast milk 140ml   
+03:30 PM   Expressed breast milk 140ml   
+07:15 PM   Nursing L 5m ← R 23m   
+08:00 PM   Poop   
+08:30 PM   Sleep   
+
+Total nursing time  L 31m / R 23m
+Formula Total: 0 times 0ml
+Expressed breast milk         3times 420ml
+Total sleep         9h50m
+Peed                1times
+Pooped              2times
+
+----------
+Thu, Mar 31, 2022
+yoshi (0y4m2d)
+
+03:00 AM   Wake-up (6h 30m)   
+03:35 AM   Nursing L 26m   
+04:15 AM   Sleep   
+06:25 AM   Wake-up (2h 10m)   
+06:30 AM   Nursing R 15m   
+09:35 AM   Expressed breast milk 140ml   
+01:15 PM   Expressed breast milk 140ml   
+06:05 PM   Nursing L 2m ← R 22m   
+08:10 PM   Sleep   
+08:55 PM   Wake-up (0h 45m)   
+08:55 PM   Pee   
+08:55 PM   Poop   
+09:00 PM   Nursing L 56m   
+11:20 PM   Pee   
+11:20 PM   Poop   
+
+Total nursing time  L 84m / R 37m
+Formula Total: 0 times 0ml
+Expressed breast milk         2times 280ml
+Total sleep         5h55m
+Peed                2times
+Pooped              2times
+
+----------
