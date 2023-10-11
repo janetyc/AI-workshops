@@ -1,0 +1,20 @@
+{"nodes": 
+	[{" id": "person", "group": 1}, 
+	 {"id": "bicycle", "group": 1}, 
+	 {"id": "car", "group": 1}, 
+	 {"id": "motorcycle", "group": 1}, 
+	 {"id": "airplane", "group": 1}, 
+	 {"id": "bus", "group": 1}, 
+	 {"id": "train", "group": 1}, 
+	 {"id": "truck", "group": 1}, 
+	 {"id": "boat", "group": 1}], 
+ "links": 
+ 	[{"source": 0, "target": 1, "weight": 0.1}, 
+ 	 {"source": 0, "target": 2, "weight": 0.3}, 
+ 	 {"source": 0, "target": 3, "weight": 0.02}, 
+ 	 {"source": 0, "target": 4, "weight": 0.01}, 
+ 	 {"source": 0, "target": 5, "weight": 0.0}, 
+ 	 {"source": 1, "target": 2, "weight": 0.5}, 
+ 	 {"source": 1, "target": 3, "weight": 0.03},
+ 	 {"source": 4, "target": 7, "weight": 0.6}]
+ }
